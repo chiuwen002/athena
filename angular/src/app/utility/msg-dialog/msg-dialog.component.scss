@@ -1,0 +1,46 @@
+.generalModal i.info {
+    vertical-align: middle;
+    font-size: 1.8em!important;
+    color: #50b84c;
+    background-color: #edf3b2;
+    border-radius: 50%;
+    width: 1.2em;
+    height: 1.2em;
+    line-height: 1.2em;
+    margin: 0 .2em 0 0 ;
+  }
+.generalModal i.warning {
+  vertical-align: middle;
+  font-size: 1.8em!important;
+  color: #ff5a8b;
+  margin: 0 .2em 0 0 ;
+  border: none!important;
+  padding: 0!important;
+}
+.generalModal {
+  position: relative;
+  color: #000!important;
+}
+.generalModal i {
+  position: initial;
+}
+mat-dialog-actions button {
+  background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%)!important;
+  background-image: -o-linear-gradient(top, #fff 0, #e0e0e0 100%)!important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), to(#e0e0e0))!important;
+  background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false)!important;
+  background-repeat: repeat-x!important;
+  text-shadow: 0 1px 0 #fff!important;
+  border: 1px solid #ccc!important;
+  color: #333!important;
+}
+
+mat-dialog-actions button:hover {
+
+  background-color: #e0e0e0!important;
+  background-position: 0 0!important;
+  background-image: linear-gradient(to bottom, #ffffff 0, #e0e0e0 100%)!important;
+
+}
