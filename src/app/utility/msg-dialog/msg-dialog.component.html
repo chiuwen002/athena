@@ -1,0 +1,8 @@
+<h4 mat-dialog-title class="generalModal">
+    <i *ngIf="type!=='error'" class="material-icons info">&#xe876;</i>
+    <i *ngIf="type==='error'" class="material-icons warning">&#xe002;</i>
+    <span [innerHTML]="infoMessage"></span>
+  </h4>
+<mat-dialog-actions class="btn_area">
+  <button type="button" class="btn btn-default" mat-dialog-close>Close</button>
+</mat-dialog-actions> 
