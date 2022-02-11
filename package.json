@@ -37,7 +37,7 @@
     "ng2-tooltip-directive": "2.8.17",
     "ng2-ui-switch": "^1.0.2",
     "ngx-spinner": "^7.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "rxjs": "^6.4.0",
     "rxjs-compat": "^6.4.0",
     "web-animations-js": "^2.3.1",
